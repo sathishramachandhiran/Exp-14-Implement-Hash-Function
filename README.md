@@ -72,7 +72,8 @@ int main() {
 ```
 # OUTPUT:
 
-![Screenshot 2024-10-17 082502](https://github.com/user-attachments/assets/7a0382a1-77c4-4fd1-8ea6-f50c7f0c9463)
+![Screenshot 2024-10-18 205730](https://github.com/user-attachments/assets/43bd88ce-839a-40f4-90fe-629f1e47e364)
+
 
 # RESULT:
 The program for generating and verifying a simple hash of a given message using a custom hash function was executed successfully. The computed hash ensures basic integrity of the message.
