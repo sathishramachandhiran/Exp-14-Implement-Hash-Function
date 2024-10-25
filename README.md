@@ -11,10 +11,8 @@ Use a basic custom hash function that applies simple operations like XOR and add
 
 Step 3:
 Convert the resulting hash into a hexadecimal format.
-
 Step 4:
 Display the computed hash to the user.
-
 Step 5:
 Optionally verify the hash by recomputing it and comparing it with a received hash.
 
@@ -22,17 +20,14 @@ Optionally verify the hash by recomputing it and comparing it with a received ha
 ```c
 #include <stdio.h>
 #include <string.h>
-
 // Function to compute a simple hash using XOR and addition
 void computeSimpleHash(const char *message, unsigned char *hash) {
     unsigned char temp = 0;
-
     // Simple hash computation: XOR and addition
     for (int i = 0; message[i] != '\0'; i++) {
         temp = temp ^ message[i];  // XOR each character
         temp += message[i];        // Add each character's value
     }
-    
     // Store the result in the hash
     *hash = temp;
 }
