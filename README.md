@@ -19,7 +19,7 @@ Step 5:
 Optionally verify the hash by recomputing it and comparing it with a received hash.
 
 # PROGRAM:
-```
+```c
 #include <stdio.h>
 #include <string.h>
 
@@ -72,8 +72,7 @@ int main() {
 ```
 # OUTPUT:
 
-![Screenshot 2024-10-18 205730](https://github.com/user-attachments/assets/43bd88ce-839a-40f4-90fe-629f1e47e364)
-
+![out](ex14.png)
 
 # RESULT:
 The program for generating and verifying a simple hash of a given message using a custom hash function was executed successfully. The computed hash ensures basic integrity of the message.
